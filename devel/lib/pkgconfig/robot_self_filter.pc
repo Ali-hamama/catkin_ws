@@ -1,0 +1,8 @@
+prefix=/home/ali/catkin_ws/devel
+
+Name: robot_self_filter
+Description: Description of robot_self_filter
+Version: 0.1.32
+Cflags: -I/home/ali/catkin_ws/src/robot_self_filter/include -I/usr/include/bullet
+Libs: -L${prefix}/lib -lrobot_geometric_shapes -lrobot_self_filter -lBulletSoftBody -lBulletDynamics -lBulletCollision -lLinearMath
+Requires: roscpp tf filters sensor_msgs urdf resource_retriever visualization_msgs pcl_ros

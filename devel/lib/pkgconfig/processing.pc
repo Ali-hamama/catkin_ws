@@ -1,0 +1,8 @@
+prefix=/home/ali/catkin_ws/devel
+
+Name: processing
+Description: Description of processing
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

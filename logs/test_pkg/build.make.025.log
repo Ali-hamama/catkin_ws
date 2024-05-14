@@ -1,0 +1,15 @@
+[  0%] Built target std_msgs_generate_messages_nodejs
+[  0%] Built target std_msgs_generate_messages_lisp
+[  0%] Built target std_msgs_generate_messages_eus
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target std_msgs_generate_messages_py
+[ 12%] Built target clistener
+[ 25%] Built target MyTalker
+[ 25%] Built target _test_pkg_generate_messages_check_deps_newService
+[ 25%] Built target _test_pkg_generate_messages_check_deps_addTwoInts
+[ 50%] Built target test_pkg_generate_messages_nodejs
+[ 56%] Built target test_pkg_generate_messages_eus
+[ 75%] Built target test_pkg_generate_messages_py
+[ 87%] Built target test_pkg_generate_messages_cpp
+[100%] Built target test_pkg_generate_messages_lisp
+[100%] Built target test_pkg_generate_messages

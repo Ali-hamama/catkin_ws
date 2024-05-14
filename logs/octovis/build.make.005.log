@@ -1,0 +1,5 @@
+make[2]: *** No rule to make target '/home/ali/catkin_ws/src/octomap/octovis/src/extern/QGLViewer/libQGLViewer.so', needed by '/home/ali/catkin_ws/src/octomap/octovis/lib/liboctovis.so.1.10.0'.  Stop.
+make[1]: *** [CMakeFiles/Makefile2:675: CMakeFiles/octovis-shared.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+[ 17%] Built target octovis-static
+make: *** [Makefile:141: all] Error 2

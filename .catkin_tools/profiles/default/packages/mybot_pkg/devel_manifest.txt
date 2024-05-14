@@ -1,0 +1,5 @@
+RSE_Assessment/RSE_ws/src/mybot_pkg
+/home/ali/catkin_ws/devel/.private/mybot_pkg/cmake.lock /home/ali/catkin_ws/devel/./cmake.lock
+/home/ali/catkin_ws/devel/.private/mybot_pkg/share/mybot_pkg/cmake/mybot_pkgConfig.cmake /home/ali/catkin_ws/devel/share/mybot_pkg/cmake/mybot_pkgConfig.cmake
+/home/ali/catkin_ws/devel/.private/mybot_pkg/share/mybot_pkg/cmake/mybot_pkgConfig-version.cmake /home/ali/catkin_ws/devel/share/mybot_pkg/cmake/mybot_pkgConfig-version.cmake
+/home/ali/catkin_ws/devel/.private/mybot_pkg/lib/pkgconfig/mybot_pkg.pc /home/ali/catkin_ws/devel/lib/pkgconfig/mybot_pkg.pc

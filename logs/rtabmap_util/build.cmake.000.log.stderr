@@ -1,0 +1,11 @@
+[31m[1mCMake Error[0m at /home/ali/catkin_ws/devel/share/octomap_msgs/cmake/octomap_msgsConfig.cmake:113 (message):
+  Project 'octomap_msgs' specifies
+  '/home/ali/catkin_ws/src/octomap_msgs/include' as an include dir, which is
+  not found.  It does neither exist as an absolute directory nor in
+  '/home/ali/catkin_ws/src/octomap_msgs//home/ali/catkin_ws/src/octomap_msgs/include'.
+  Check the issue tracker 'https://github.com/OctoMap/octomap_msgs/issues'
+  and consider creating a ticket if the problem has not been reported yet.
+[36mCall Stack (most recent call first):[0m
+  CMakeLists.txt:11 (find_package)
+
+

@@ -1,0 +1,51 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/ali/catkin_ws/devel/include/**",
+        "/opt/ros/noetic/include/**",
+        "/home/ali/catkin_ws/src/RSE_Assessment/RSE_ws/src/navigation/eband_local_planner/include/**",
+        "/home/ali/catkin_ws/src/fast_gicp/include/**",
+        "/home/ali/catkin_ws/src/RSE_Assessment/RSE_ws/src/mapping/hdl_global_localization/include/**",
+        "/home/ali/catkin_ws/src/RSE_Assessment/RSE_ws/src/mapping/hdl_graph_slam/include/**",
+        "/home/ali/catkin_ws/src/RSE_Assessment/RSE_ws/src/mapping/hdl_localization/include/**",
+        "/home/ali/catkin_ws/src/ndt_omp/include/**",
+        "/home/ali/catkin_ws/src/pointcloud_to_laserscan/include/**",
+        "/home/ali/catkin_ws/src/RSE_Assessment/RSE_ws/src/realsense_gazebo_plugin/include/**",
+        "/home/ali/catkin_ws/src/robot_self_filter/include/**",
+        "/home/ali/catkin_ws/src/rtabmap_ros/rtabmap_conversions/include/**",
+        "/home/ali/catkin_ws/src/rtabmap_ros/rtabmap_costmap_plugins/include/**",
+        "/home/ali/catkin_ws/src/rtabmap_ros/rtabmap_odom/include/**",
+        "/home/ali/catkin_ws/src/rtabmap_ros/rtabmap_rviz_plugins/include/**",
+        "/home/ali/catkin_ws/src/rtabmap_ros/rtabmap_slam/include/**",
+        "/home/ali/catkin_ws/src/rtabmap_ros/rtabmap_sync/include/**",
+        "/home/ali/catkin_ws/src/rtabmap_ros/rtabmap_util/include/**",
+        "/home/ali/catkin_ws/src/rtabmap_ros/rtabmap_viz/include/**",
+        "/home/ali/catkin_ws/src/RSE_Assessment/RSE_ws/src/steer_drive_ros/steer_bot_hardware_gazebo/include/**",
+        "/home/ali/catkin_ws/src/RSE_Assessment/RSE_ws/src/steer_drive_ros/steer_drive_controller/include/**",
+        "/home/ali/catkin_ws/src/RSE_Assessment/RSE_ws/src/steer_drive_ros/stepback_and_steerturn_recovery/include/**",
+        "/home/ali/catkin_ws/src/RSE_Assessment/RSE_ws/src/navigation/teb_local_planner/include/**",
+        "/home/ali/catkin_ws/src/geometry2/tf2/include/**",
+        "/home/ali/catkin_ws/src/geometry2/tf2_bullet/include/**",
+        "/home/ali/catkin_ws/src/geometry2/tf2_eigen/include/**",
+        "/home/ali/catkin_ws/src/geometry2/tf2_geometry_msgs/include/**",
+        "/home/ali/catkin_ws/src/geometry2/tf2_kdl/include/**",
+        "/home/ali/catkin_ws/src/geometry2/tf2_msgs/include/**",
+        "/home/ali/catkin_ws/src/geometry2/tf2_ros/include/**",
+        "/home/ali/catkin_ws/src/geometry2/tf2_sensor_msgs/include/**",
+        "/home/ali/catkin_ws/src/RSE_Assessment/RSE_ws/src/velodyne_simulator/velodyne_gazebo_plugins/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

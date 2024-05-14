@@ -1,0 +1,46 @@
+[35m[1mScanning dependencies of target std_msgs_generate_messages_cpp[0m
+[35m[1mScanning dependencies of target std_msgs_generate_messages_py[0m
+[35m[1mScanning dependencies of target std_msgs_generate_messages_lisp[0m
+[35m[1mScanning dependencies of target std_msgs_generate_messages_eus[0m
+[35m[1mScanning dependencies of target std_msgs_generate_messages_nodejs[0m
+[35m[1mScanning dependencies of target _test_pkg_generate_messages_check_deps_newService[0m
+[35m[1mScanning dependencies of target MyTalker[0m
+[35m[1mScanning dependencies of target _test_pkg_generate_messages_check_deps_addTwoInts[0m
+[35m[1mScanning dependencies of target clistener[0m
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target std_msgs_generate_messages_py
+[  0%] Built target std_msgs_generate_messages_lisp
+[  0%] Built target std_msgs_generate_messages_eus
+[  0%] Built target std_msgs_generate_messages_nodejs
+[ 12%] [32mBuilding CXX object CMakeFiles/MyTalker.dir/src/publisher.cpp.o[0m
+[ 12%] [32mBuilding CXX object CMakeFiles/clistener.dir/src/clistener.cpp.o[0m
+[ 12%] Built target _test_pkg_generate_messages_check_deps_addTwoInts
+[ 12%] Built target _test_pkg_generate_messages_check_deps_newService
+[35m[1mScanning dependencies of target test_pkg_generate_messages_py[0m
+[35m[1mScanning dependencies of target test_pkg_generate_messages_nodejs[0m
+[35m[1mScanning dependencies of target test_pkg_generate_messages_lisp[0m
+[35m[1mScanning dependencies of target test_pkg_generate_messages_cpp[0m
+[35m[1mScanning dependencies of target test_pkg_generate_messages_eus[0m
+[ 56%] [34m[1mGenerating C++ code from test_pkg/newService.srv[0m
+[ 56%] [34m[1mGenerating EusLisp code from test_pkg/newService.srv[0m
+[ 56%] [34m[1mGenerating EusLisp manifest code for test_pkg[0m
+[ 56%] [34m[1mGenerating EusLisp code from test_pkg/addTwoInts.srv[0m
+[ 56%] [34m[1mGenerating Python code from SRV test_pkg/addTwoInts[0m
+[ 56%] [34m[1mGenerating C++ code from test_pkg/addTwoInts.srv[0m
+[ 56%] [34m[1mGenerating Lisp code from test_pkg/newService.srv[0m
+[ 62%] [34m[1mGenerating Javascript code from test_pkg/addTwoInts.srv[0m
+[ 68%] [34m[1mGenerating Javascript code from test_pkg/newService.srv[0m
+[ 75%] [34m[1mGenerating Lisp code from test_pkg/addTwoInts.srv[0m
+[ 81%] [34m[1mGenerating Python code from SRV test_pkg/newService[0m
+[ 81%] Built target test_pkg_generate_messages_lisp
+[ 81%] Built target test_pkg_generate_messages_nodejs
+[ 81%] Built target test_pkg_generate_messages_cpp
+[ 87%] [34m[1mGenerating Python srv __init__.py for test_pkg[0m
+[ 87%] Built target test_pkg_generate_messages_py
+[ 87%] Built target test_pkg_generate_messages_eus
+[35m[1mScanning dependencies of target test_pkg_generate_messages[0m
+[ 87%] Built target test_pkg_generate_messages
+[ 93%] [32m[1mLinking CXX executable /home/ali/catkin_ws/devel/.private/test_pkg/lib/test_pkg/MyTalker[0m
+[100%] [32m[1mLinking CXX executable /home/ali/catkin_ws/devel/.private/test_pkg/lib/test_pkg/clistener[0m
+[100%] Built target MyTalker
+[100%] Built target clistener

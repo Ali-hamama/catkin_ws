@@ -1,0 +1,8 @@
+prefix=/home/ali/catkin_ws/devel
+
+Name: hdl_localization
+Description: Description of hdl_localization
+Version: 0.0.0
+Cflags: -I/home/ali/catkin_ws/devel/include -I/home/ali/catkin_ws/src/RSE_Assessment/RSE_ws/src/mapping/hdl_localization/include
+Libs: -L${prefix}/lib 
+Requires: 

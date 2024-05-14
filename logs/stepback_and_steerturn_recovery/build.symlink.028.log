@@ -1,0 +1,4 @@
+Symlinking /home/ali/catkin_ws/devel/share/stepback_and_steerturn_recovery/cmake/stepback_and_steerturn_recoveryConfig-version.cmake
+Symlinking /home/ali/catkin_ws/devel/share/stepback_and_steerturn_recovery/cmake/stepback_and_steerturn_recoveryConfig.cmake
+Symlinking /home/ali/catkin_ws/devel/lib/libstepback_and_steerturn_recovery.so
+Symlinking /home/ali/catkin_ws/devel/lib/pkgconfig/stepback_and_steerturn_recovery.pc

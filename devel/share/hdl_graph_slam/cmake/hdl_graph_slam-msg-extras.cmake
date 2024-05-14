@@ -1,0 +1,2 @@
+set(hdl_graph_slam_MESSAGE_FILES "/home/ali/catkin_ws/src/RSE_Assessment/RSE_ws/src/mapping/hdl_graph_slam/msg/FloorCoeffs.msg;/home/ali/catkin_ws/src/RSE_Assessment/RSE_ws/src/mapping/hdl_graph_slam/msg/ScanMatchingStatus.msg")
+set(hdl_graph_slam_SERVICE_FILES "/home/ali/catkin_ws/src/RSE_Assessment/RSE_ws/src/mapping/hdl_graph_slam/srv/SaveMap.srv;/home/ali/catkin_ws/src/RSE_Assessment/RSE_ws/src/mapping/hdl_graph_slam/srv/LoadGraph.srv;/home/ali/catkin_ws/src/RSE_Assessment/RSE_ws/src/mapping/hdl_graph_slam/srv/DumpGraph.srv")

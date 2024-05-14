@@ -1,0 +1,30 @@
+[35m[1mScanning dependencies of target read_video_cpp[0m
+[35m[1mScanning dependencies of target open_copy_cpp[0m
+[35m[1mScanning dependencies of target actionlib_msgs_generate_messages_nodejs[0m
+[  1%] [32mBuilding CXX object CMakeFiles/open_copy_cpp.dir/src/topic03_perception/cpp/open_copy.cpp.o[0m
+[  1%] Built target actionlib_msgs_generate_messages_nodejs
+[  2%] [32mBuilding CXX object CMakeFiles/read_video_cpp.dir/src/topic03_perception/cpp/read_video.cpp.o[0m
+[35m[1mScanning dependencies of target actionlib_msgs_generate_messages_py[0m
+[  4%] [32m[1mLinking CXX executable /home/ali/catkin_ws/devel/.private/ros_essentials_cpp/lib/ros_essentials_cpp/open_copy_cpp[0m
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_nodejs[0m
+[  4%] Built target actionlib_msgs_generate_messages_py
+[  4%] Built target rosgraph_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target sensor_msgs_generate_messages_cpp[0m
+[  4%] Built target sensor_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target std_msgs_generate_messages_py[0m
+[35m[1mScanning dependencies of target std_msgs_generate_messages_nodejs[0m
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_eus[0m
+[  4%] Built target std_msgs_generate_messages_py
+[  4%] Built target geometry_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target std_msgs_generate_messages_cpp[0m
+[  4%] Built target std_msgs_generate_messages_nodejs
+[  4%] Built target std_msgs_generate_messages_cpp
+/usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':
+(.text+0x24): undefined reference to `main'
+collect2: error: ld returned 1 exit status
+make[2]: *** [CMakeFiles/open_copy_cpp.dir/build.make:208: /home/ali/catkin_ws/devel/.private/ros_essentials_cpp/lib/ros_essentials_cpp/open_copy_cpp] Error 1
+make[1]: *** [CMakeFiles/Makefile2:211: CMakeFiles/open_copy_cpp.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+[  5%] [32m[1mLinking CXX executable /home/ali/catkin_ws/devel/.private/ros_essentials_cpp/lib/ros_essentials_cpp/read_video_cpp[0m
+[  5%] Built target read_video_cpp
+make: *** [Makefile:141: all] Error 2

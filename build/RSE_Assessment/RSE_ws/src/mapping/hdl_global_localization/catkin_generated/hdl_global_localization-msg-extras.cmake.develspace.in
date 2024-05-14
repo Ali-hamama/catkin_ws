@@ -1,0 +1,2 @@
+set(hdl_global_localization_MESSAGE_FILES "")
+set(hdl_global_localization_SERVICE_FILES "/home/ali/catkin_ws/src/RSE_Assessment/RSE_ws/src/mapping/hdl_global_localization/srv/SetGlobalLocalizationEngine.srv;/home/ali/catkin_ws/src/RSE_Assessment/RSE_ws/src/mapping/hdl_global_localization/srv/SetGlobalMap.srv;/home/ali/catkin_ws/src/RSE_Assessment/RSE_ws/src/mapping/hdl_global_localization/srv/QueryGlobalLocalization.srv")

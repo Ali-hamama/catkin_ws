@@ -1,0 +1,29 @@
+digraph G {
+"camera_depth_frame" -> "camera_color_frame"[label=" Broadcaster: /steer_bot/robot_state_publisher\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"camera_link" -> "camera_depth_frame"[label=" Broadcaster: /steer_bot/robot_state_publisher\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"camera_color_frame" -> "camera_color_optical_frame"[label=" Broadcaster: /steer_bot/robot_state_publisher\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"camera_bottom_screw_frame" -> "camera_link"[label=" Broadcaster: /steer_bot/robot_state_publisher\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"camera_depth_frame" -> "camera_depth_optical_frame"[label=" Broadcaster: /steer_bot/robot_state_publisher\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"base_link" -> "camera_bottom_screw_frame"[label=" Broadcaster: /steer_bot/robot_state_publisher\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"odom" -> "base_link"[label=" Broadcaster: /steer_bot/gazebo\nAverage rate: 50.201\nBuffer length: 4.98\nMost recent transform: 1511.645\nOldest transform: 1506.665\n"];
+"camera_depth_frame" -> "camera_left_ir_frame"[label=" Broadcaster: /steer_bot/robot_state_publisher\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"camera_left_ir_frame" -> "camera_left_ir_optical_frame"[label=" Broadcaster: /steer_bot/robot_state_publisher\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"camera_depth_frame" -> "camera_right_ir_frame"[label=" Broadcaster: /steer_bot/robot_state_publisher\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"camera_right_ir_frame" -> "camera_right_ir_optical_frame"[label=" Broadcaster: /steer_bot/robot_state_publisher\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"base_link" -> "velodyne2_base_link"[label=" Broadcaster: /steer_bot/robot_state_publisher\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"velodyne2_base_link" -> "velodyne2"[label=" Broadcaster: /steer_bot/robot_state_publisher\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"map" -> "odom"[label=" Broadcaster: /slam_gmapping\nAverage rate: 20.198\nBuffer length: 4.951\nMost recent transform: 1511.68\nOldest transform: 1506.729\n"];
+"base_link" -> "front_left_steer_link"[label=" Broadcaster: /steer_bot/robot_state_publisher\nAverage rate: 50.201\nBuffer length: 4.98\nMost recent transform: 1511.645\nOldest transform: 1506.665\n"];
+"front_left_steer_link" -> "front_left_wheel_link"[label=" Broadcaster: /steer_bot/robot_state_publisher\nAverage rate: 50.201\nBuffer length: 4.98\nMost recent transform: 1511.645\nOldest transform: 1506.665\n"];
+"base_link" -> "front_right_steer_link"[label=" Broadcaster: /steer_bot/robot_state_publisher\nAverage rate: 50.201\nBuffer length: 4.98\nMost recent transform: 1511.645\nOldest transform: 1506.665\n"];
+"front_right_steer_link" -> "front_right_wheel_link"[label=" Broadcaster: /steer_bot/robot_state_publisher\nAverage rate: 50.201\nBuffer length: 4.98\nMost recent transform: 1511.645\nOldest transform: 1506.665\n"];
+"base_link" -> "front_steer_link"[label=" Broadcaster: /steer_bot/robot_state_publisher\nAverage rate: 50.201\nBuffer length: 4.98\nMost recent transform: 1511.645\nOldest transform: 1506.665\n"];
+"base_link" -> "rear_left_wheel_link"[label=" Broadcaster: /steer_bot/robot_state_publisher\nAverage rate: 50.201\nBuffer length: 4.98\nMost recent transform: 1511.645\nOldest transform: 1506.665\n"];
+"base_link" -> "rear_right_wheel_link"[label=" Broadcaster: /steer_bot/robot_state_publisher\nAverage rate: 50.201\nBuffer length: 4.98\nMost recent transform: 1511.645\nOldest transform: 1506.665\n"];
+"base_link" -> "rear_wheel_link"[label=" Broadcaster: /steer_bot/robot_state_publisher\nAverage rate: 50.201\nBuffer length: 4.98\nMost recent transform: 1511.645\nOldest transform: 1506.665\n"];
+"velodyne2" -> "steer_bot/velodyne2"[label=" Broadcaster: /steer_bot/velodyne2_to_velodyne\nAverage rate: 10.19\nBuffer length: 4.907\nMost recent transform: 1511.676\nOldest transform: 1506.769\n"];
+edge [style=invis];
+ subgraph cluster_legend { style=bold; color=black; label ="view_frames Result";
+"Recorded at time: 1511.663"[ shape=plaintext ] ;
+}->"map";
+}

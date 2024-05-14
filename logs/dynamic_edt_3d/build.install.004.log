@@ -1,0 +1,25 @@
+[ 20%] Built target dynamicedt3d-static
+[ 40%] Built target dynamicedt3d
+[ 60%] Built target exampleEDTOctomapStamped
+[ 80%] Built target exampleEDTOctomap
+[100%] Built target exampleEDT3D
+[36mInstall the project...[0m
+-- Install configuration: "Release"
+-- Installing: /home/ali/catkin_ws/devel/include/dynamicEDT3D/bucketedqueue.h
+-- Installing: /home/ali/catkin_ws/devel/include/dynamicEDT3D/bucketedqueue.hxx
+-- Installing: /home/ali/catkin_ws/devel/include/dynamicEDT3D/dynamicEDT3D.h
+-- Installing: /home/ali/catkin_ws/devel/include/dynamicEDT3D/dynamicEDTOctomap.h
+-- Installing: /home/ali/catkin_ws/devel/include/dynamicEDT3D/dynamicEDTOctomap.hxx
+-- Installing: /home/ali/catkin_ws/devel/include/dynamicEDT3D/point.h
+-- Installing: /home/ali/catkin_ws/devel/share/dynamic_edt_3d/package.xml
+-- Installing: /home/ali/catkin_ws/devel/share/ament_index/resource_index/packages/dynamicEDT3D
+-- Up-to-date: /home/ali/catkin_ws/devel/share/dynamicEDT3D/dynamicEDT3DConfig.cmake
+-- Up-to-date: /home/ali/catkin_ws/devel/share/dynamicEDT3D/dynamicEDT3DConfig-version.cmake
+-- Installing: /home/ali/catkin_ws/devel/lib/pkgconfig/dynamicEDT3D.pc
+-- Installing: /home/ali/catkin_ws/devel/lib/libdynamicedt3d.so.1.10.0
+-- Up-to-date: /home/ali/catkin_ws/devel/lib/libdynamicedt3d.so.1.10
+-- Set runtime path of "/home/ali/catkin_ws/devel/lib/libdynamicedt3d.so.1.10.0" to "/home/ali/catkin_ws/devel/lib"
+-- Up-to-date: /home/ali/catkin_ws/devel/lib/libdynamicedt3d.so
+-- Installing: /home/ali/catkin_ws/devel/lib/libdynamicedt3d.a
+-- Up-to-date: /home/ali/catkin_ws/devel/share/dynamicEDT3D/dynamicEDT3DTargets.cmake
+-- Installing: /home/ali/catkin_ws/devel/share/dynamicEDT3D/dynamicEDT3DTargets-release.cmake

@@ -1,0 +1,21 @@
+[35m[1mScanning dependencies of target octovis-shared[0m
+[35m[1mScanning dependencies of target octovis-static[0m
+[  7%] [32mBuilding CXX object CMakeFiles/octovis-shared.dir/src/PointcloudDrawer.cpp.o[0m
+[  7%] [32mBuilding CXX object CMakeFiles/octovis-static.dir/src/PointcloudDrawer.cpp.o[0m
+[  7%] [32mBuilding CXX object CMakeFiles/octovis-static.dir/src/SceneObject.cpp.o[0m
+[ 10%] [32mBuilding CXX object CMakeFiles/octovis-static.dir/src/TrajectoryDrawer.cpp.o[0m
+make[2]: *** No rule to make target '/home/ali/catkin_ws/src/octomap/octovis/src/extern/QGLViewer/libQGLViewer.so', needed by '/home/ali/catkin_ws/src/octomap/octovis/lib/liboctovis.so.1.10.0'.  Stop.
+make[2]: *** Waiting for unfinished jobs....
+[ 12%] [32mBuilding CXX object CMakeFiles/octovis-shared.dir/src/SceneObject.cpp.o[0m
+[ 15%] [32mBuilding CXX object CMakeFiles/octovis-static.dir/src/SelectionBox.cpp.o[0m
+[ 17%] [32mBuilding CXX object CMakeFiles/octovis-static.dir/src/OcTreeDrawer.cpp.o[0m
+[ 20%] [32mBuilding CXX object CMakeFiles/octovis-shared.dir/src/OcTreeDrawer.cpp.o[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/octovis-shared.dir/src/SelectionBox.cpp.o[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/octovis-static.dir/src/ColorOcTreeDrawer.cpp.o[0m
+[ 27%] [32mBuilding CXX object CMakeFiles/octovis-shared.dir/src/TrajectoryDrawer.cpp.o[0m
+[ 30%] [32mBuilding CXX object CMakeFiles/octovis-shared.dir/src/ColorOcTreeDrawer.cpp.o[0m
+make[1]: *** [CMakeFiles/Makefile2:675: CMakeFiles/octovis-shared.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+[ 32%] [32m[1mLinking CXX static library /home/ali/catkin_ws/src/octomap/octovis/lib/liboctovis.a[0m
+[ 32%] Built target octovis-static
+make: *** [Makefile:141: all] Error 2

@@ -1,0 +1,7 @@
+Symlinking /home/ali/catkin_ws/devel/share/robot_self_filter/cmake/robot_self_filterConfig.cmake
+Symlinking /home/ali/catkin_ws/devel/share/robot_self_filter/cmake/robot_self_filterConfig-version.cmake
+Symlinking /home/ali/catkin_ws/devel/lib/librobot_geometric_shapes.so
+Symlinking /home/ali/catkin_ws/devel/lib/librobot_self_filter.so
+Symlinking /home/ali/catkin_ws/devel/lib/pkgconfig/robot_self_filter.pc
+Symlinking /home/ali/catkin_ws/devel/lib/robot_self_filter/test_filter
+Symlinking /home/ali/catkin_ws/devel/lib/robot_self_filter/self_filter

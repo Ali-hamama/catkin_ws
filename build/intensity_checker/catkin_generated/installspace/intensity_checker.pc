@@ -1,0 +1,8 @@
+prefix=/home/ali/catkin_ws/install
+
+Name: intensity_checker
+Description: Description of intensity_checker
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

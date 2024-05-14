@@ -1,0 +1,6 @@
+Symlinking /home/ali/catkin_ws/devel/share/rtabmap_costmap_plugins/cmake/rtabmap_costmap_pluginsConfig-version.cmake
+Symlinking /home/ali/catkin_ws/devel/share/rtabmap_costmap_plugins/cmake/rtabmap_costmap_pluginsConfig.cmake
+Symlinking /home/ali/catkin_ws/devel/lib/librtabmap_costmap_plugins2.so
+Symlinking /home/ali/catkin_ws/devel/lib/librtabmap_costmap_plugins.so
+Symlinking /home/ali/catkin_ws/devel/lib/pkgconfig/rtabmap_costmap_plugins.pc
+Symlinking /home/ali/catkin_ws/devel/lib/rtabmap_costmap_plugins/voxel_markers

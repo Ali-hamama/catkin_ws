@@ -1,0 +1,4 @@
+Symlinking /home/ali/catkin_ws/devel/share/rtabmap_conversions/cmake/rtabmap_conversionsConfig.cmake
+Symlinking /home/ali/catkin_ws/devel/share/rtabmap_conversions/cmake/rtabmap_conversionsConfig-version.cmake
+Symlinking /home/ali/catkin_ws/devel/lib/librtabmap_conversions.so
+Symlinking /home/ali/catkin_ws/devel/lib/pkgconfig/rtabmap_conversions.pc
